@@ -8,6 +8,7 @@
 </head>
 <body>
     <?php
+        $hourOfDay = 24;
         if ($hourOfDay > 6 && $hourOfDay < 12){
             $greeting = "Good Morning";
         }
