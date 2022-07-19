@@ -23,13 +23,16 @@
 
         $count = 0;
 
+        echo "Count to 10 bro!<br>";
+
         while ($count < 10){
-            echo $count;
+            echo $count . "<br>";
             $count++;
         }
 
+        echo "Count to 100 man!<br>";
         for ($count = 0; $count < 100; $count += 5){
-            echo $count;
+            echo $count . "<br>";
         }
     ?>
 </body>
