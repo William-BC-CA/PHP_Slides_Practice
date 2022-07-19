@@ -4,17 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Just...a function that increments</title>
+    <title>Having Keys and Values for an Array</title>
 </head>
 <body>
     <?php
-        function change(&$arg){
-            $arg += 100;
-        }
+        $forecast = array("Mon" => 40, "Tue" => 47, "Wed" => 52, "Thu" => 40, "Fri" => 37);
 
-        $initial = 15;
-        change($initial);
-        echo $initial; // What will the output be?
+        echo $forecast["Tue"]; // outputs 47
+        echo $forecast["Thu"]; // outputs 40
+        
     ?>
 </body>
 </html>

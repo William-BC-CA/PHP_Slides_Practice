@@ -4,17 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Just...a function that increments</title>
+    <title>Array Sorting + Printing</title>
 </head>
 <body>
     <?php
-        function change(&$arg){
-            $arg += 100;
-        }
-
-        $initial = 15;
-        change($initial);
-        echo $initial; // What will the output be?
+        $days = array("Mon", "Tue", "Wed", "Thu", "Fri");
+        sort($days);
+        print_r($days);
     ?>
 </body>
 </html>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Document</title>
+    <title>Basic echo, var, define, syntax</title>
 </head>
 <body>
     <?php

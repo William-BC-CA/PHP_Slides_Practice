@@ -4,18 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Using Global Variables in Functions</title>
+    <title>Iterating through an Array - for</title>
 </head>
 <body>
     <?php
-        $count = 56;
-
-        function testScope(){
-            global $count;
-            echo $count; // outputs 0 or generates warning
+        $days = array("Mon", "Tue", "Wed", "Thu", "Fri");
+        // for loop
+        for ($i = 0; $i < count($days); $i++){
+            echo $days[$i] . "<br>";
         }
-
-        echo $count; // outputs 56
-    ?>  
+    ?>
 </body>
 </html>
